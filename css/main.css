@@ -1,0 +1,80 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121010;
+  padding-bottom: 2em; /* Small hack as disqus is only loaded once it comes into view */
+}
+
+h1 {
+  color: #c22d2d;
+  padding: 17px;
+}
+
+a:link {
+  color: #c22d2d;
+}
+
+a:visited {
+  color: #c22d2d;
+}
+
+a:hover {
+  color: #ff9696;
+  cursor: pointer;
+}
+
+a:active {
+  color: #eeeeee;
+}
+
+.navbar-dark {
+  background-color: #1c1c1c;
+}
+
+.banner {
+  margin: 1.5em 0 1.5em 0;
+}
+
+/* RSS */
+.rss {
+  background-color: #1c1c1c;
+  height: 800px;
+  /*margin: 4%;*/
+}
+
+/* SCHEDULE */
+.schedule {
+  background-color: #1c1c1c;
+  height: 400px;
+  /*margin: 4%;*/
+}
+
+/* We add a small margin to the top once the screen hits xs breakpoint */
+@media (max-width: 575px) {
+  .schedule {
+    margin-top: 2em;
+  }
+}
+
+/* CLOCK */
+.clock {
+  background-color: #1c1c1c;
+  height: 367px;
+  /*margin: 10px 4% 0 4%;*/
+  margin-top: 2em;
+}
+
+/* DISQUS */
+.disqus {
+  background-color: #1c1c1c;
+  height: auto;
+  /*margin: 4%;*/
+}
+
+#disqus_thread {
+  color: #c22d2d;
+}
